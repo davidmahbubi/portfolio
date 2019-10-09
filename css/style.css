@@ -1,0 +1,175 @@
+* {
+  font-family: "Titillium Web", sans-serif;
+}
+
+hr {
+  background-color: white;
+}
+
+/* iPad / Tablet Range */
+
+@media (max-width: 1000px) and (min-width: 768px) {
+  .jumbotron {
+    padding-bottom: 0 !important;
+  }
+
+  .about-left h1 {
+    margin: 10px !important;
+  }
+
+  .about-left h1,
+  .about-left p {
+    text-align: center !important;
+  }
+
+  .dv-jumbotron-title {
+    font-size: 38px !important;
+  }
+  .sub-title {
+    font-size: 20px !important;
+  }
+  .right p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .about-right img {
+    display: none !important;
+  }
+}
+
+/* Ipad / tablet range 2 */
+
+@media (max-width: 768px) and (min-width: 695px) {
+  .about-left h1 {
+    margin: 5px !important;
+  }
+
+  .about-left h1,
+  .about-left p {
+    text-align: center !important;
+  }
+
+  .jumbotron {
+    padding: 0 20px;
+  }
+  .left {
+    height: 319px !important;
+  }
+  .right {
+    margin: 0 !important;
+  }
+  .dv-jumbotron-title {
+    font-size: 30px !important;
+  }
+  .sub-title {
+    font-size: 17px !important;
+  }
+  .right p {
+    font-size: 14px;
+  }
+}
+
+/* Phone Screen */
+
+@media (max-width: 695px) and (min-width: 0px) {
+  .jumbotron {
+    padding: 0px 20px 40px 20px !important;
+  }
+
+  .about-left h1 {
+    margin: 10px !important;
+  }
+
+  .about-left h1,
+  .about-left p {
+    text-align: center !important;
+  }
+
+  .about-right img {
+    display: none !important;
+  }
+
+  .left {
+    height: 319px !important;
+    display: none;
+  }
+
+  .right {
+    float: left !important;
+    width: 100% !important;
+  }
+  .dv-jumbotron-title {
+    font-size: 30px !important;
+  }
+  .sub-title {
+    font-size: 17px !important;
+  }
+  .right p {
+    font-size: 14px;
+  }
+}
+
+.dv-bg-primary {
+  background-color: #393e46 !important;
+}
+
+.dv-text-primary {
+  color: #393e46 !important;
+}
+
+.nav-item a {
+  font-size: 17px;
+}
+
+.left {
+  height: 400px;
+  line-height: 300px !important;
+}
+
+.dv-primary-bt-outline {
+  border: 1px solid white;
+  color: white;
+  background-color: #305d5f00 !important;
+}
+
+.dv-primary-bt-outline:hover {
+  color: white;
+  background-color: #00858b !important;
+}
+
+.dv-primary-bt {
+  background-color: #00adb5 !important;
+}
+
+.dv-primary-bt:hover {
+  background-color: #00858b !important;
+}
+
+.dv-jumbotron {
+  width: 100%;
+  height: 500px;
+}
+.dv-jumbotron-title {
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.about-left {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/2929907.jpg);
+}
+
+.description {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.skill-bar {
+  padding: 0 !important;
+}
+
+.fa-fw {
+  font-size: 40px;
+}
